@@ -89,15 +89,15 @@ cog-white {
 
     
 a:link{
-    color: #2364AA;
+    color: #8168b3;
     }
 
 a:hover{
-    color: #1DC2AE;   
+    color: #59B9DE;   
     }
     
 a:visited{
-    color: #2364AA;   
+    color: #8168b3;   
     }
     
 .img_circle {
@@ -108,21 +108,26 @@ a:visited{
         background-color: #FF7C68 !important;
         color: white !important;
     }
+
+.btn-download {
+        background-color: #FACE00 !important;
+        color: black !important;
+    }
     
 .esther_pink {
-    color: #FD7681;
+    color: #fd8ba0;
     }
     
 .esther_purple {
-    color: #6C6EA0;
+    color: #8168b3;
     }
     
 .esther_orange {
-    color: #F08717;
+    color: #fa9441;
     }
     
 .esther_red {
-    color: #E75614;
+    color: #ef5e25;
     }
 
 .esther_bluelight {
@@ -130,7 +135,7 @@ a:visited{
     }
 
 .esther_bluedark {
-    color: #2364AA;
+    color: #005ea2;
     }
 
 .esther_yellow {
@@ -139,19 +144,19 @@ a:visited{
     
     
 .esther_pink_bg {
-    background: #FD7681;
+    background: #fd8ba0;
     }
     
 .esther_purple_bg {
-    background: #6C6EA0;
+    background: #8168b3;
     }
     
 .esther_orange_bg {
-    background: #F08717;
+    background: #fa9441;
     }
     
 .esther_red_bg {
-    background: #E75614;
+    background: #ef5e25;
     }
 
 .esther_bluelight_bg {
@@ -159,7 +164,7 @@ a:visited{
     }
 
 .esther_bluedark_bg {
-    background: #2364AA;
+    background: #005ea2;
     }
 
 .esther_yellow_bg {
@@ -283,6 +288,22 @@ nav-link {
 </style>
     
 <!-- End CSS edits. -->
+    
+    
+<!--JS edits-->
+<script>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+    
+    
+</script>
+    
+<!--End JS edits-->
 
 
     
@@ -294,21 +315,20 @@ nav-link {
   </span>
 </div>
 <!-- This is where the temporary blue bar ends and the site's navbar starts: -->
-<nav class="navbar border-bottom border-info navbar-expand-lg">
-<a href="index.html"><img src="img/logo-alt.png" width="200rem" alt="designGNV" class="img-fluid"></a>
+<nav class="text-center navbar border-bottom border-info navbar-expand-lg">
+<a href="index.html"><img src="img/logo-alt.png" width="200rem"  class="img-fluid"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
     <span class="navbar-toggler-icon"></span>
 </button>
+    
+<h2 class="text-center mx-auto">Design Resources for Community Builders</h2>
+    
 </nav>
+    
+
+
 <!-- This is where the site's navbar ends. -->
-    
 
-    
-<br><br>
-    
-<h2 class="text-center">Design Resources for Community Builders</h2>
-
-<br><br>
     
 <div class="row">
     
@@ -317,8 +337,8 @@ nav-link {
     <button class="tablinks" onclick="openCity(event, 'Cityseal')" id="defaultOpen">City Seal</button>
     <button class="tablinks" onclick="openCity(event, 'Colors')">Colors</button>
     <button class="tablinks" onclick="openCity(event, 'Fonts')">Fonts</button>
+    <button class="tablinks" onclick="openCity(event, 'Logos')">GNV Logos</button>
     <button class="tablinks" onclick="openCity(event, 'Icons')">Icons</button>
-    <button class="tablinks" onclick="openCity(event, 'Illustrations')">Illustrations</button>
   <h5 class="headertab">Editorial Guidelines</h5>
     <button class="tablinks" onclick="openCity(event, 'Editorial')">Editorial</button>
     <button class="tablinks" onclick="openCity(event, 'Contrast')">Contrast Ratios</button>
@@ -2225,33 +2245,174 @@ nav-link {
         </div>
     </div>
 
-<br><br><br>
     
-    <div class="row ml-5">
+<br><br><br> 
+    
+    <div class="row">
+        <div class="col-sm-2"></div>
        <div class="col-sm-5 text-left"> 
-        <img src="img/national-font.png" width="300" class="img-fluid" alt="Font Examples">
+        <img src="img/national-font.png" width="200" class="img-fluid" alt="Font Examples">
         <br><br><br>
-        <img src="img/national-example.png" width="300"class="img-fluid" alt="Font Examples">
+        <img src="img/national-example.png" width="220"class="img-fluid" alt="Font Examples">
         <br><br><br>
-        <a class="btn btn-warning" href="https://gruadmin.sharepoint.com/sites/GGStrategicInitiatives-Team/Shared%20Documents/Design/RESOURCES/Fonts/National" target="_blank">
+        <a class="btn btn-download" href="https://gruadmin.sharepoint.com/sites/GGStrategicInitiatives-Team/Shared%20Documents/Design/RESOURCES/Fonts/National" target="_blank">
               <span class="text-center">Download National Font</span>
         </a>
         <br><br><br><br>
         </div>
-        <div class="col-sm-1"></div>
+        
+        
         <br><br><br>
         <div class="col-sm-5 text-left"> 
-        <img src="img/publico-font.png" width="250" class="img-fluid" alt="Font Examples">
+        <img src="img/publico-font.png" width="150" class="img-fluid" alt="Font Examples">
         <br><br><br>
-        <img src="img/publico-example.png" width="65"class="img-fluid" alt="Font Examples">
-        <br><br><br><br><br><br><br>
-        <a class="btn btn-warning text-center" href="https://gruadmin.sharepoint.com/sites/GGStrategicInitiatives-Team/Shared%20Documents/Design/RESOURCES/Fonts/Publico" target="_blank">
+        <img src="img/publico-example.png" width="50"class="img-fluid" alt="Font Examples">
+        <br><br><br><br><br><br>
+        <a class="btn btn-download text-center" href="https://gruadmin.sharepoint.com/sites/GGStrategicInitiatives-Team/Shared%20Documents/Design/RESOURCES/Fonts/Publico" target="_blank">
               <span class="text-center">Download Publico Font</span>
         </a>
         </div>
         <div class="col-sm-1"></div>
     </div>
+    
+<br>
+<div class="container-fluid m-0 text-left"> 
+    <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm-8">
+        <h5 class="text-center">Font Awesome</h5>
+        <p style="font-size: 18px ">To use Font Awesome icons as an embedded font, visit the page <a href="https://fontawesome.com/download">here</a> to download Font Awesome. When using desktop apps, you can select the Font Awesome font and start typing the icon you wish to use, it will automatically appear.</p>
+        </div>
+        <div class="col-sm">
+        </div>
+        
+    </div>
+</div> 
+    
 </div>
+
+</div>
+    
+<!--End Fonts-->
+    
+<!--Start Logos-->
+<div id="Logos" class="tabcontent">
+<!--First Row-->
+<div class="container-fluid m-0 text-center">   
+    <br><br>
+    <div class="row ml-5 mr-5 text-center">
+          <br>
+        <div class="col-sm text-center">
+          <h3 class="text-center">GNV Brands &amp; Logos</h3>
+        </div>
+    </div>
+    
+    
+       <p class="text-left margins2">We have several bands across Gainesville, each with their own logo and brand. We are aggregating them here. Please let Jacqueline know if we are missing any. </p>
+    
+    
+    <br><br>
+    
+    
+    
+    
+    <br><br>
+    
+    <div class="row ml-5 mr-5">
+        <div class="col-sm text-center">
+            <img src="img/gainesville-fl-seal.png" width="200rem" class="img-fluid" alt="city of gainesville seal">
+            <p>Gainesville Seal</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/CoG-wordmark.png" width="200rem" class="img-fluid" alt="city of gainesville wordmark">
+            <p>City of Gainesville Wordmark</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/gru-logo.png" width="200rem" class="img-fluid" alt="GRU logo">
+            <p>GRU</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/Mobility.jpg" width="200rem" class="img-fluid" alt="gainesville mobility logo">
+            <p>Mobility</p>
+            </div>
+    </div>
+    <br><br>
+    <div class="row ml-5 mr-5">
+        <div class="col-sm text-center">
+            <img src="img/RTSlogo.png" width="200rem" class="img-fluid" alt="Gainesville RTS logo">
+            <p>RTS</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/dod.png" width="200rem" class="img-fluid" alt="Gainesville Department of Doing logo">
+            <p>Department of Doing</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/wildspaces.png" width="200rem" class="img-fluid" alt="Gainesville Wild Spaces & Public Places logo">
+            <p>Wild Spaces &amp; Public Places</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/cralogo.gif" height="250rem" class="img-fluid" alt="Gainesville Community Redevelopment Agency logo">
+            <p>CRA</p>
+            </div>
+    </div>
+    <br><br>
+    <div class="row ml-5 mr-5">
+        <div class="col-sm text-center">
+            <img src="img/depot.png" width="200rem" class="img-fluid" alt="Gainesville Depot Park logo">
+            <p>Depot Park</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/bdp.png" width="200rem" class="img-fluid" alt="Gainesville Bo Diddley Plaza logo">
+            <p>Bo Diddley Plaza</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/gpd.gif" width="200rem" class="img-fluid" alt="Gainesville Police Department logo">
+            <p>Gainesville Police Department</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/EO-logo-new.gif" width="200rem" class="img-fluid" alt="Gainesville Office of Equal Opportunity logo">
+            <p>Office of Equal Opportunity</p>
+            </div>
+    </div>
+    <br><br>
+    <div class="row ml-5 mr-5">
+        <div class="col-sm text-center">
+            <img src="img/auditorlogo.png" width="200rem" class="img-fluid" alt="Gainesville City Auditor logo">
+            <p>City Auditor</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/Gainesville150_JadeGreen_forWeb.png" width="200rem" class="img-fluid" alt="Gainesville 150 logo green">
+            <p>Gainesville 150</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/Gainesville150_Violet_forWeb.png" width="200rem" class="img-fluid" alt="Gainesville 150 logo blue">
+            <p>Gainesville 150</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/Gainesville150_WarmRed_forWeb.png" width="200rem" class="img-fluid" alt="Gainesville 150 logo pink">
+            <p>Gainesville 150</p>
+            </div>
+    </div>
+    <br><br>
+    <div class="row ml-5 mr-5">
+        <div class="col-sm">
+        <img src="img/GFR.jpg" width="200rem" class="img-fluid" alt="Gainesville fire rescue logo">
+            <p>Gainesville Fire Rescue</p>
+        </div>
+        <div class="col-sm text-center">
+            <img src="img/myGNVlogosblack.png" width="200rem" class="img-fluid" alt="myGNV logo">
+            <p>myGNV</p>
+            </div>
+        <div class="col-sm text-center">
+            <img src="img/myGNVlogoswhite.png" width="200rem" class="img-fluid" alt="myGNV alternative logo">
+            <p>myGNV for dark backgrounds</p>
+            </div>
+        <div class="col-sm"></div>
+    </div>
+    
+    </div>
+<!--End First Row-->
 </div>
     
 <!--End Fonts-->
@@ -2310,7 +2471,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p2')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p2')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p2">&lt;i class=&quot;fal fa-arrow-down fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2321,7 +2482,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p3')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p3')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p3">&lt;i class=&quot;fal fa-arrow-circle-left fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2332,7 +2493,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p4')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p4')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p4">&lt;i class=&quot;fal fa-arrow-left fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2343,7 +2504,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p5')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p5')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p5">&lt;i class=&quot;fal fa-arrow-circle-right fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2359,7 +2520,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p6')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p6')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p6">&lt;i class=&quot;fal fa-arrow-right fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2371,7 +2532,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p7')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p7')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p7">&lt;i class=&quot;fal fa-arrow-circle-up fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2382,7 +2543,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p8')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p8')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p8">&lt;i class=&quot;fal fa-arrow-up fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2393,7 +2554,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p9')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p9')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p9">&lt;i class=&quot;fal fa-caret-down fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2404,7 +2565,7 @@ nav-link {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p10')"><i class="fa fa-download"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p10')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
         <a style="visibility: hidden;" id="p10">&lt;i class=&quot;fas fa-caret-down fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
@@ -2414,33 +2575,12 @@ nav-link {
        <br><br>  
 </div> 
 </div>
-<!--End Icons-->
-    
-<!--Start Illustrations-->
-<div id="Illustrations" class="tabcontent">
-    
-    <div class="container-fluid"> 
-        <br><br>
-        <div class="row ml-5 mr-5">
-              <br>
-            <div class="col-sm text-center">
-              <h3>Illustrations</h3>
-            </div>
-        </div>
-        <br><br>
-        <h6>Jacqueline Stetson's Adobe Stock Illustrator Files:</h6>
-            <br>    
-        <p>\\gg\cog\Public Folders\Strategic Initiatives Dept\CX Design\Assets\Illustrator\Stetson_Adobe_Stock_Illustrator</p>
-    </div>
-</div>
-<!--End Illustrations-->
+<!--End Logos-->
     
     
     
 <!--Editorial Guidelines-->
     
-    
-
 <!--Start Editorial Guidelines-->
 <div id="Editorial" class="tabcontent">
     
