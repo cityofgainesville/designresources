@@ -139,7 +139,7 @@ a:visited{
     }
 
 .esther_yellow {
-    color: #FACE00;
+    color: #FACE00 !important;
     }
     
     
@@ -182,6 +182,10 @@ a:visited{
     width: 10rem;
     background-color: #2364AA;
     color: white;
+    }
+    
+.bg-card {
+    background: #005ea2;
     }
 
 #navbar {
@@ -334,7 +338,7 @@ function copyToClipboard(element) {
     
 <div class="tab">
   <h5 class="headertab">Brand</h5>
-    <button class="tablinks" onclick="openCity(event, 'Cityseal')" id="defaultOpen">City Seal</button>
+    <button class="tablinks" onclick="openCity(event, 'Cityseal')" id="defaultOpen">City Logos</button>
     <button class="tablinks" onclick="openCity(event, 'Colors')">Colors</button>
     <button class="tablinks" onclick="openCity(event, 'Fonts')">Fonts</button>
     <button class="tablinks" onclick="openCity(event, 'Logos')">GNV Logos</button>
@@ -356,13 +360,24 @@ function copyToClipboard(element) {
     <div class="row ml-5 mr-5 text-center">
           <br>
         <div class="col-sm text-center">
-          <h3 class="text-center">City Seal</h3>
+          <h3 class="text-center">City Logos</h3>
         </div>
     </div>
-
 <br>
-    
-     <img src="img/gainesville-fl-seal.png" width="300rem" class="img-fluid" alt="city of gainesville seal">
+     <div class="row">
+     <div class="col-sm"></div>
+     <div class="col-sm-4 text-center">
+        <a href="img/gainesville-fl-seal.png" download target="_blank"> 
+              <img src="img/gainesville-fl-seal.png" width="200rem" class="img-fluid" alt="city of gainesville seal">
+            </a> 
+         <br><br>
+         <a href="img/cog-twolines.png" download target="_blank"> 
+              <img src="img/cog-twolines.png" width="300rem" class="img-fluid" alt="city of gainesville logo">
+            </a> 
+     </div>
+     <div class="col-sm"></div>
+    </div>
+    <br>
      <p class="text-left margins2">The city seal is used for all items related to the Gainesville City Commission. It is also used to mark all items of a permanent and lasting nature. The Clerk of the Commission serves as custodian of the city seal. Used for:</p>
         <ul class="text-left margins2 ml-5">
             <li>City flag</li>
@@ -385,6 +400,7 @@ function copyToClipboard(element) {
             <li>Legal signage</li>
             <li>Building capstones, historical markers</li>
         </ul>
+    
 </div>  
 </div>
 <!--End City Seal-->
@@ -2246,11 +2262,11 @@ function copyToClipboard(element) {
     </div>
 
     
-<br><br><br> 
+<br><br>
     
-    <div class="row">
-        <div class="col-sm-2"></div>
-       <div class="col-sm-5 text-left"> 
+    <div class="row ml-5 ">
+       <div class="col-sm-4 text-left"> 
+           <br>
         <img src="img/national-font.png" width="200" class="img-fluid" alt="Font Examples">
         <br><br><br>
         <img src="img/national-example.png" width="220"class="img-fluid" alt="Font Examples">
@@ -2263,8 +2279,9 @@ function copyToClipboard(element) {
         
         
         <br><br><br>
-        <div class="col-sm-5 text-left"> 
-        <img src="img/publico-font.png" width="150" class="img-fluid" alt="Font Examples">
+        <div class="col-sm-4 text-left"> 
+            <br>
+        <img src="img/publico-font.png" width="160" class="img-fluid" alt="Font Examples">
         <br><br><br>
         <img src="img/publico-example.png" width="50"class="img-fluid" alt="Font Examples">
         <br><br><br><br><br><br>
@@ -2272,23 +2289,20 @@ function copyToClipboard(element) {
               <span class="text-center">Download Publico Font</span>
         </a>
         </div>
-        <div class="col-sm-1"></div>
+        
+        <div class="col-sm-4 text-left"> 
+            
+        <img src="img/font-awesome.png" width="350" class="img-fluid" alt="Font Awesome">
+        <br><br>
+        <p>To use Font Awesome (FA) icons as an embedded font, visit the page below to download FA. When using desktop apps, you can select the FA font and start typing the name of the icon you wish to use, it will automatically appear.</p>
+        <a class="btn btn-download" href="https://fontawesome.com/download" target="_blank">
+              <span class="text-center">Font Awesome</span>
+        </a>
+        <br><br><br><br>
+        </div>
     </div>
     
-<br>
-<div class="container-fluid m-0 text-left"> 
-    <div class="row">
-        <div class="col-sm">
-        </div>
-        <div class="col-sm-8">
-        <h5 class="text-center">Font Awesome</h5>
-        <p style="font-size: 18px ">To use Font Awesome icons as an embedded font, visit the page <a href="https://fontawesome.com/download">here</a> to download Font Awesome. When using desktop apps, you can select the Font Awesome font and start typing the icon you wish to use, it will automatically appear.</p>
-        </div>
-        <div class="col-sm">
-        </div>
-        
-    </div>
-</div> 
+<br> 
     
 </div>
 
@@ -2461,38 +2475,60 @@ function copyToClipboard(element) {
 <!--Start Icons-->
 <div id="Icons" class="tabcontent">
     <div class="container-fluid m-0 bg-section3"> 
-    <br><br>
+    <br><br>   
+    
     <div class="row ml-5 mr-5" id="section3">
           <br>
         <div class="col-sm text-center">
           <h3>Icons</h3>
         </div>
-    </div>   
-  <br>
-    <div class="ml-5 mr-5 text-left">
-        <p>Go to <a href="www.fontawesome.com">fontawesome.com</a> to browse and download icons.</p>
-        <br>
-        <h6>To use icons as images for presentations: </h6>
-        <p>Click the icon, the icon will download as an image.</p>
-        <br>
-        <h6>To use icons in HTML for websites:</h6>
-        <p>1. Insert the Font Awesome script into the head of your code.</p>
-        <p class="ml-5">&lt;!-- Start FontAwesome Kit --&gt; <br>
-	       &lt;script src="https://kit.fontawesome.com/7c02223738.js" crossorigin="anonymous"&gt;&lt;/script&gt; <br>
-	       &lt;!-- End FontAwesome Kit. --&gt;
-        </p>
-        <p>2. Copy the HTML code below the icon you wish to use and insert it into your code.</p>
+    </div> 
         
-    </div>
     <br><br>
+        
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card h-100 text-white bg-card">
+                <div class="card-body">
+                   <h5 class="card-title">Font Awesome</h5>
+                   <p class="card-text">Go to <a href="https://fontawesome.com/download" class="esther_yellow">fontawesome.com</a> to browse and download icons. <br><br> To use Font Awesome (FA) icons as an embedded font, download FA. When using desktop apps, you can select the FA font and start typing the name of the icon you wish to use, it will automatically appear.</p>
+                </div>
+             </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card h-100 text-white bg-card">
+                <div class="card-body">
+                   <h5 class="card-title">Images for Presentations</h5>
+                   <p class="card-text">Click the icon, the icon will download as an image.</p>
+                </div>
+             </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card h-100 text-white bg-card">
+                <div class="card-body">
+                   <h5 class="card-title">HTML for websites</h5>
+                   <p class="card-text">
+                       1. Copy the Font Awesome script &amp; insert it into the head of your code:</p>
+                    <p class="ml-3">&lt;!-- Start FontAwesome Kit --&gt; <br>
+                        &lt;script src="https://kit.fontawesome.com/7c02223738.js" crossorigin="anonymous"&gt;&lt;/script&gt; <br>
+                        &lt;!-- End FontAwesome Kit. --&gt;</p>
+                    <p>2. Copy the HTML code below the icon you wish to use and insert it into your code.</p>
+                </div>
+             </div>
+        </div>
+    </div>     
+        
+  <br>
+
+    <br><br><br>
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     
     
     
     
-    <div class="row ml-3 text-center"> 	
-    
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
     <div class="col-sm-2">  
         <a href="img/arrow-circle-down.png" download target="_blank"> 
             <img class="ml-3" src="img/arrow-circle-down.png" width="50rem" height="50rem" alt="icon">
@@ -2551,9 +2587,135 @@ function copyToClipboard(element) {
     </div>
     </div>
     
-    <br>
     
-    <div class="row ml-3 text-center">
+    
+    <div class="row text-center">
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">      
+        <a href="img/arrow-right-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-right-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p6')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p6">&lt;i class=&quot;fal fa-arrow-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/arrow-circle-up.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-circle-up.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p7')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p7">&lt;i class=&quot;fal fa-arrow-circle-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/arrow-up-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-up-light.png"r width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p8')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p8">&lt;i class=&quot;fal fa-arrow-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/caret-down-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/caret-down-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p9')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p9">&lt;i class=&quot;fal fa-caret-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/caret-down-solid.PNG" download target="_blank"> 
+            <img class="ml-3" src="img/caret-down-solid.PNG" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p10')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p10">&lt;i class=&quot;fas fa-caret-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <p>add new icons</p>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/arrow-circle-down.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-circle-down.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p1')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p1">&lt;i class=&quot;fal fa-arrow-circle-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/arrow-down-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-down-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p2')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p2">&lt;i class=&quot;fal fa-arrow-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/arrow-circle-left.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-circle-left.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p3')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p3">&lt;i class=&quot;fal fa-arrow-circle-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/arrow-left-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-left-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p4')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p4">&lt;i class=&quot;fal fa-arrow-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/arrow-circle-right.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-circle-right.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p5')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p5">&lt;i class=&quot;fal fa-arrow-circle-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+    
+    
+    
+    <div class="row text-center">
+        <div class="col-sm-1"></div>
     <div class="col-sm-2">      
         <a href="img/arrow-right-light.png" download target="_blank"> 
             <img class="ml-3" src="img/arrow-right-light.png" width="50rem" height="50rem" alt="icon">
