@@ -114,6 +114,11 @@ a:visited{
         color: black !important;
     }
     
+.btn-icontab {
+        background-color: #face00 !important;
+        margin-bottom: 1rem;
+    }
+    
 .esther_pink {
     color: #fd8ba0;
     }
@@ -185,7 +190,7 @@ a:visited{
     }
     
 .bg-card {
-    background: #005ea2;
+    border-color: #005ea2;
     }
 
 #navbar {
@@ -2477,7 +2482,7 @@ function copyToClipboard(element) {
     <div class="container-fluid m-0 bg-section3"> 
     <br><br>   
     
-    <div class="row ml-5 mr-5" id="section3">
+    <div class="row ml-3 mr-5" id="section3">
           <br>
         <div class="col-sm text-center">
           <h3>Icons</h3>
@@ -2488,15 +2493,15 @@ function copyToClipboard(element) {
         
     <div class="row">
         <div class="col-sm-4">
-            <div class="card h-100 text-white bg-card">
+            <div class="card h-100  bg-card">
                 <div class="card-body">
                    <h5 class="card-title">Font Awesome</h5>
-                   <p class="card-text">Go to <a href="https://fontawesome.com/download" class="esther_yellow">fontawesome.com</a> to browse and download icons. <br><br> To use Font Awesome (FA) icons as an embedded font, download FA. When using desktop apps, you can select the FA font and start typing the name of the icon you wish to use, it will automatically appear.</p>
+                   <p class="card-text">Go to <a href="https://fontawesome.com/download" class="esther_darkblue">fontawesome.com</a> to browse and download icons. <br><br> To use Font Awesome (FA) icons as an embedded font, download FA. When using desktop apps, you can select the FA font and start typing the name of the icon you wish to use, it will automatically appear.</p>
                 </div>
              </div>
         </div>
         <div class="col-sm-4">
-            <div class="card h-100 text-white bg-card">
+            <div class="card h-100  bg-card">
                 <div class="card-body">
                    <h5 class="card-title">Images for Presentations</h5>
                    <p class="card-text">Click the icon, the icon will download as an image.</p>
@@ -2504,12 +2509,12 @@ function copyToClipboard(element) {
              </div>
         </div>
         <div class="col-sm-4">
-            <div class="card h-100 text-white bg-card">
+            <div class="card h-100  bg-card">
                 <div class="card-body">
                    <h5 class="card-title">HTML for websites</h5>
                    <p class="card-text">
                        1. Copy the Font Awesome script &amp; insert it into the head of your code:</p>
-                    <p class="ml-3">&lt;!-- Start FontAwesome Kit --&gt; <br>
+                    <p class="ml-3" style="font-size: 12px">&lt;!-- Start FontAwesome Kit --&gt; <br>
                         &lt;script src="https://kit.fontawesome.com/7c02223738.js" crossorigin="anonymous"&gt;&lt;/script&gt; <br>
                         &lt;!-- End FontAwesome Kit. --&gt;</p>
                     <p>2. Copy the HTML code below the icon you wish to use and insert it into your code.</p>
@@ -2524,133 +2529,1403 @@ function copyToClipboard(element) {
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     
+    <div class="row">    
+    <div class="col-sm">
+    <h4>Jump to an icon section</h4><br>
+    <a href="#animal" type="button" class="btn btn-icontab">Animal</a>
+    <a href="#business" type="button" class="btn btn-icontab">Business</a>
+    <a href="#community" type="button" class="btn btn-icontab">Community Engagement</a>
+    <a href="#connectivity" type="button" class="btn btn-icontab">Connectivity</a>
+    <a href="#contact" type="button" class="btn btn-icontab">Contact Info</a>
+    <a href="#facilities" type="button" class="btn btn-icontab">Facilities</a>
+    <a href="#form" type="button" class="btn btn-icontab">Form Controls</a>
+    <a href="#maps" type="button" class="btn btn-icontab">Maps</a>
+    <a href="#media" type="button" class="btn btn-icontab">Media</a>
+    <a href="#parks" type="button" class="btn btn-icontab">Parks</a>
+    <a href="#payment" type="button" class="btn btn-icontab">Payment</a>
+    <a href="#people" type="button" class="btn btn-icontab">People</a>
+    <a href="#rating" type="button" class="btn btn-icontab">Rating</a>
+    <a href="#social" type="button" class="btn btn-icontab">Social Media</a>
+    <a href="#sports" type="button" class="btn btn-icontab">Sports</a>
+    <a href="#things" type="button" class="btn btn-icontab">Things</a>
+    <a href="#transportation" type="button" class="btn btn-icontab">Transportation</a>
+    <a href="#ui" type="button" class="btn btn-icontab">UI Controls</a>
+    <a href="#navigation" type="button" class="btn btn-icontab">UI Navigation</a>
+    <a href="#weather" type="button" class="btn btn-icontab">Weather</a>
+    <a href="#workflow" type="button" class="btn btn-icontab">Workflow Status</a>
+        <br><br><br>
+        </div>
+        </div>
     
-    <a href="#parks">Parks</a>
     
+    
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="animal" style="font-size: 20px"><strong>Animal</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
     <div class="row text-center"> 	
         <div class="col-sm-1"></div>
     <div class="col-sm-2">  
-        <a href="img/arrow-circle-down.png" download target="_blank"> 
-            <img class="ml-3" src="img/arrow-circle-down.png" width="50rem" height="50rem" alt="icon">
+        <a href="img/bone.png" download target="_blank"> 
+            <img class="ml-3" src="img/bone.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
         <button class="btn btn-html" onclick="copyToClipboard('#p1')"><i class="fa fa-copy"></i>  Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p1">&lt;i class=&quot;fal fa-arrow-circle-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p1">&lt;i class=&quot;fal fa-bone fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <br><br>
     <div class="col-sm-2">       
-        <a href="img/arrow-down-light.png" download target="_blank"> 
-            <img class="ml-3" src="img/arrow-down-light.png" width="50rem" height="50rem" alt="icon">
+        <a href="img/cow.png" download target="_blank"> 
+            <img class="ml-3" src="img/cow.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
         <button class="btn btn-html" onclick="copyToClipboard('#p2')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p2">&lt;i class=&quot;fal fa-arrow-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p2">&lt;i class=&quot;fal fa-cow fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
+    <br><br>
     <div class="col-sm-2">       
-        <a href="img/arrow-circle-left.png" download target="_blank"> 
-            <img class="ml-3" src="img/arrow-circle-left.png" width="50rem" height="50rem" alt="icon">
+        <a href="img/crow.png" download target="_blank"> 
+            <img class="ml-3" src="img/crow.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
         <button class="btn btn-html" onclick="copyToClipboard('#p3')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p3">&lt;i class=&quot;fal fa-arrow-circle-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p3">&lt;i class=&quot;fal fa-crow fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
+    <br><br>
     <div class="col-sm-2">       
-        <a href="img/arrow-left-light.png" download target="_blank"> 
-            <img class="ml-3" src="img/arrow-left-light.png" width="50rem" height="50rem" alt="icon">
+        <a href="img/custom-flamingo.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-flamingo.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p4')"><i class="fa fa-copy"></i> Copy HTML</button>
-        <br><br>
-        <a style="visibility: hidden;" id="p4">&lt;i class=&quot;fal fa-arrow-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <button class="btn btn-html" > N/A</button>
     </div>
+    <br><br>
     <div class="col-sm-2">       
-        <a href="img/arrow-circle-right.png" download target="_blank"> 
-            <img class="ml-3" src="img/arrow-circle-right.png" width="50rem" height="50rem" alt="icon">
+        <a href="img/dog.png" download target="_blank"> 
+            <img class="ml-3" src="img/dog.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
         <button class="btn btn-html" onclick="copyToClipboard('#p5')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p5">&lt;i class=&quot;fal fa-arrow-circle-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p5">&lt;i class=&quot;fal fa-dog fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     </div>
-    
-    
-    
-    <div class="row text-center">
+        
+        
+    <div class="row text-center"> 	
         <div class="col-sm-1"></div>
-    <div class="col-sm-2">      
-        <a href="img/arrow-right-light.png" download target="_blank"> 
-            <img class="ml-3" src="img/arrow-right-light.png" width="50rem" height="50rem" alt="icon">
+    <div class="col-sm-2">  
+        <a href="img/dove.png" download target="_blank"> 
+            <img class="ml-3" src="img/dove.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p6')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p6')"><i class="fa fa-copy"></i>  Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p6">&lt;i class=&quot;fal fa-arrow-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p6">&lt;i class=&quot;fal fa-dove fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">  
+        <a href="img/duck.png" download target="_blank"> 
+            <img class="ml-3" src="img/duck.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p7')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p7">&lt;i class=&quot;fal fa-duck fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">  
+        <a href="img/fish.png" download target="_blank"> 
+            <img class="ml-3" src="img/fish.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p8')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p8">&lt;i class=&quot;fal fa-fish fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">  
+        <a href="img/kiwi-bird.png" download target="_blank"> 
+            <img class="ml-3" src="img/kiwi-bird.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p9')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p9">&lt;i class=&quot;fal fa-kiwi-bird fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">  
+        <a href="img/turtle.png" download target="_blank"> 
+            <img class="ml-3" src="img/turtle.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p10')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p10">&lt;i class=&quot;fal fa-turtle fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>  
+        
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="business" style="font-size: 20px"><strong>Business</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/chart-line.png" download target="_blank"> 
+            <img class="ml-3" src="img/chart-line.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p11')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p11">&lt;i class=&quot;fal fa-chart-line fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <br><br>
     <div class="col-sm-2">       
-        <a href="img/arrow-circle-up.png" download target="_blank"> 
-            <img class="ml-3" src="img/arrow-circle-up.png" width="50rem" height="50rem" alt="icon">
+        <a href="img/envelope.png" download target="_blank"> 
+            <img class="ml-3" src="img/envelope.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p7')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p12')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p7">&lt;i class=&quot;fal fa-arrow-circle-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p12">&lt;i class=&quot;fal fa-envelope fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <div class="col-sm-2">       
-        <a href="img/arrow-up-light.png" download target="_blank"> 
-            <img class="ml-3" src="img/arrow-up-light.png"r width="50rem" height="50rem" alt="icon">
+        <a href="img/envelope-square.png" download target="_blank"> 
+            <img class="ml-3" src="img/envelope-square.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p8')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p13')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p8">&lt;i class=&quot;fal fa-arrow-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p13">&lt;i class=&quot;fal fa-envelope-square fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <div class="col-sm-2">       
-        <a href="img/caret-down-light.png" download target="_blank"> 
-            <img class="ml-3" src="img/caret-down-light.png" width="50rem" height="50rem" alt="icon">
+        <a href="img/file-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/file-alt.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p9')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p14')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p9">&lt;i class=&quot;fal fa-caret-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p14">&lt;i class=&quot;fal fa-file-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <div class="col-sm-2">       
-        <a href="img/caret-down-solid.PNG" download target="_blank"> 
-            <img class="ml-3" src="img/caret-down-solid.PNG" width="50rem" height="50rem" alt="icon">
+        <a href="img/folder.png" download target="_blank"> 
+            <img class="ml-3" src="img/folder.png" width="50rem" height="50rem" alt="icon">
         </a>
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p10')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p15')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p10">&lt;i class=&quot;fas fa-caret-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p15">&lt;i class=&quot;fal fa-folder fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     </div>
         
         
-    <a name="parks"></a>    
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/user.png" download target="_blank"> 
+            <img class="ml-3" src="img/user.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p16')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p16">&lt;i class=&quot;fal fa-user fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/users.png" download target="_blank"> 
+            <img class="ml-3" src="img/users.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p17')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p17">&lt;i class=&quot;fal fa-users fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div> 
+        
+            
+
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="community" style="font-size: 20px"><strong>Community Engagement</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/arrows-v-light.svg" download target="_blank"> 
+            <img class="ml-3" src="img/arrows-v-light.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p18')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p18">&lt;i class=&quot;fal fa-arrows-v fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+        <div class="col-sm-2">  
+        <a href="img/arrow-up-light.svg" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-up-light.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p19')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p19">&lt;i class=&quot;fal fa-arrow-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+        <div class="col-sm-2">  
+        <a href="img/CEC_Collaborate.svg" download target="_blank"> 
+            <img class="ml-3" src="img/CEC_Collaborate.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html"> N/A</button>
+    </div>
+    <br><br>
+    <div class="col-sm-2">  
+        <a href="img/CEC_Consult.svg" download target="_blank"> 
+            <img class="ml-3" src="img/CEC_Consult.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html"> N/A</button>
+    </div>
+    <br><br>
+        <div class="col-sm-2">  
+        <a href="img/CEC_Empower.svg" download target="_blank"> 
+            <img class="ml-3" src="img/CEC_Empower.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html"> N/A</button>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">       
+        <a href="img/CEC_Inform.svg" download target="_blank"> 
+            <img class="ml-3" src="img/CEC_Inform.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html">N/A</button>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/CEC_Involve.svg" download target="_blank"> 
+            <img class="ml-3" src="img/CEC_Involve.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html">N/A</button>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/circle-light.svg" download target="_blank"> 
+            <img class="ml-3" src="img/circle-light.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p20')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p20">&lt;i class=&quot;fal fa-circle fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/circle-regular.svg" download target="_blank"> 
+            <img class="ml-3" src="img/circle-regular.svg" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html">N/A</button>
+    </div>
+    </div>
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="connectivity" style="font-size: 20px"><strong>Connectivity</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/bell.png" download target="_blank"> 
+            <img class="ml-3" src="img/bell.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p21')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p21">&lt;i class=&quot;fal fa-bell fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/bluetooth.png" download target="_blank"> 
+            <img class="ml-3" src="img/bluetooth.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p22')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p22">&lt;i class=&quot;fal fa-bluetooth fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/bluetooth-b.png" download target="_blank"> 
+            <img class="ml-3" src="img/bluetooth-b.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p23')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p23">&lt;i class=&quot;fal fa-bluetooth-b fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/wifi.png" download target="_blank"> 
+            <img class="ml-3" src="img/wifi.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p24')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p24">&lt;i class=&quot;fal fa-wifi fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="contact" style="font-size: 20px"><strong>Contact Info</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/address-card.png" download target="_blank"> 
+            <img class="ml-3" src="img/address-card.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p25')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p25">&lt;i class=&quot;fal fa-address-card fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/envelope-open.png" download target="_blank"> 
+            <img class="ml-3" src="img/envelope-open.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p26')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p26">&lt;i class=&quot;fal fa-envelope-open fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/envelope-open-text-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/envelope-open-text-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p27')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p27">&lt;i class=&quot;fal fa-envelope-open-text fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/fax.png" download target="_blank"> 
+            <img class="ml-3" src="img/fax.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p28')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p28">&lt;i class=&quot;fal fa-fax fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/id-card-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/id-card-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p29')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p29">&lt;i class=&quot;fal fa-id-card-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/link.png" download target="_blank"> 
+            <img class="ml-3" src="img/link.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p30')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p30">&lt;i class=&quot;fal fa-link fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/map-pin.png" download target="_blank"> 
+            <img class="ml-3" src="img/map-pin.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p31')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p31">&lt;i class=&quot;fal fa-map-pin fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/paper-plane.png" download target="_blank"> 
+            <img class="ml-3" src="img/paper-plane.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p32')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p32">&lt;i class=&quot;fal fa-paper-plane fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/phone.png" download target="_blank"> 
+            <img class="ml-3" src="img/phone.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p33')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p33">&lt;i class=&quot;fal fa-phone fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/phone-office.png" download target="_blank"> 
+            <img class="ml-3" src="img/phone-office.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p34')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p34">&lt;i class=&quot;fal fa-phone-office fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/phone-square.png" download target="_blank"> 
+            <img class="ml-3" src="img/phone-square.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p35')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p35">&lt;i class=&quot;fal fa-phone-square fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="facilities" style="font-size: 20px"><strong>Facilities</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/baby-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/baby-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p36')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p36">&lt;i class=&quot;fal fa-baby fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/binoculars.png" download target="_blank"> 
+            <img class="ml-3" src="img/binoculars.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p37')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p37">&lt;i class=&quot;fal fa-binoculars fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/building.png" download target="_blank"> 
+            <img class="ml-3" src="img/building.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p38')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p38">&lt;i class=&quot;fal fa-building fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/custom-dog-ban.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-dog-ban.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html"> N/A</button>
+        <br><br>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/custom-elevator.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-elevator.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html"> N/A</button>
+        <br><br>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/custom-hotel.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-hotel.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html">  N/A</button>
+        <br><br>
+        
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/custom-smoking-ban.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-smoking-ban.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html"> N/A</button>
+        <br><br>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/custom-traffic-light-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-traffic-light-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html"> N/A</button>
+        <br><br>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/food.png" download target="_blank"> 
+            <img class="ml-3" src="img/food.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p39')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p39">&lt;i class=&quot;fal fa-utensils-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/gamepad.png" download target="_blank"> 
+            <img class="ml-3" src="img/gamepad.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p40')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p40">&lt;i class=&quot;fal fa-gamepad fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/glass.png" download target="_blank"> 
+            <img class="ml-3" src="img/glass.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p41')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p41">&lt;i class=&quot;fal fa-glass fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/hotel.png" download target="_blank"> 
+            <img class="ml-3" src="img/hotel.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p42')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p42">&lt;i class=&quot;fal fa-hotel fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/meeting-room.png" download target="_blank"> 
+            <img class="ml-3" src="img/meeting-room.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p43')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p43">&lt;i class=&quot;fal fa-handshake fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/parking.png" download target="_blank"> 
+            <img class="ml-3" src="img/parking.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p44')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p44">&lt;i class=&quot;fal fa-parking fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/parking-slash.png" download target="_blank"> 
+            <img class="ml-3" src="img/parking-slash.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p45')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p45">&lt;i class=&quot;fal fa-parking-slash fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/plug.png" download target="_blank"> 
+            <img class="ml-3" src="img/plug.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p46')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p46">&lt;i class=&quot;fal fa-plug fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/recycle.png" download target="_blank"> 
+            <img class="ml-3" src="img/recycle.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p47')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p47">&lt;i class=&quot;fal fa-recycle fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/school.png" download target="_blank"> 
+            <img class="ml-3" src="img/school.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p48')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p48">&lt;i class=&quot;fal fa-school fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/shower.png" download target="_blank"> 
+            <img class="ml-3" src="img/shower.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p49')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p49">&lt;i class=&quot;fal fa-shower fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/sign-out.png" download target="_blank"> 
+            <img class="ml-3" src="img/sign-out.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p50')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p50">&lt;i class=&quot;fal fa-sign-out fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/sign-out-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/sign-out-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p51')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p51">&lt;i class=&quot;fal fa-sign-out-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/smoking-ban.png" download target="_blank"> 
+            <img class="ml-3" src="img/smoking-ban.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p52')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p52">&lt;i class=&quot;fal fa-smoking-ban fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/store.png" download target="_blank"> 
+            <img class="ml-3" src="img/store.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p53')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p53">&lt;i class=&quot;fal fa-store fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/university.png" download target="_blank"> 
+            <img class="ml-3" src="img/university.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p54')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p54">&lt;i class=&quot;fal fa-university fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/wheelchair.png" download target="_blank"> 
+            <img class="ml-3" src="img/wheelchair.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p55')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p55">&lt;i class=&quot;fal fa-wheelchair fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    
+        <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="form" style="font-size: 20px"><strong>Form Controls</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/arrows-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrows-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p56')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p56">&lt;i class=&quot;fal fa-arrows-alt-v fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/arrows-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrows-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p57')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p57">&lt;i class=&quot;fal fa-arrows-v fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/calendar-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/calendar-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p58')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p58">&lt;i class=&quot;fal fa-calendar fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/clock.png" download target="_blank"> 
+            <img class="ml-3" src="img/clock.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p59')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p59">&lt;i class=&quot;fal fa-clock fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/clone-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/clone-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p60')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p60">&lt;i class=&quot;fal fa-clone fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+     
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/comments.png" download target="_blank"> 
+            <img class="ml-3" src="img/comments.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p61')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p61">&lt;i class=&quot;fal fa-comments fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/copy.png" download target="_blank"> 
+            <img class="ml-3" src="img/copy.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p62')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p62">&lt;i class=&quot;fal fa-copy fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/info-circle.png" download target="_blank"> 
+            <img class="ml-3" src="img/info-circle.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p63')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p63">&lt;i class=&quot;fal fa-info-circle fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/paste.png" download target="_blank"> 
+            <img class="ml-3" src="img/paste.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p64')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p64">&lt;i class=&quot;fal fa-paste fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/pencil-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/pencil-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p65')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p65">&lt;i class=&quot;fal fa-pencil fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/plus%20(2).png" download target="_blank"> 
+            <img class="ml-3" src="img/plus%20(2).png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p66')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p66">&lt;i class=&quot;fal fa-plus fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/save.png" download target="_blank"> 
+            <img class="ml-3" src="img/save.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p67')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p67">&lt;i class=&quot;fal fa-save fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/trash-alt-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/trash-alt-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p68')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p68">&lt;i class=&quot;fal fa-trash-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+       <br><br>  
+        
+    
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="maps" style="font-size: 20px"><strong>Maps</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/briefcase-medical.png" download target="_blank"> 
+            <img class="ml-3" src="img/briefcase-medical.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p69')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p69">&lt;i class=&quot;fal fa-briefcase-medical fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/child.png" download target="_blank"> 
+            <img class="ml-3" src="img/child.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p2')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p2">&lt;i class=&quot;fal fa-child fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/compass.png" download target="_blank"> 
+            <img class="ml-3" src="img/compass.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p70')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p70">&lt;i class=&quot;fal fa-compass fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/directions.png" download target="_blank"> 
+            <img class="ml-3" src="img/directions.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p71')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p71">&lt;i class=&quot;fal fa-directions fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/map-marked-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/map-marked-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p72')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p72">&lt;i class=&quot;fal fa-map-marked-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/map-marker-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/map-marker-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p73')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p73">&lt;i class=&quot;fal fa-map-marker-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/notes-medical.png" download target="_blank"> 
+            <img class="ml-3" src="img/notes-medical.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p74')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p74">&lt;i class=&quot;fal fa-notes-medical fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/question-circle.png" download target="_blank"> 
+            <img class="ml-3" src="img/question-circle.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p75')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p75">&lt;i class=&quot;fal fa-question-circle fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+        <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="media" style="font-size: 20px"><strong>Media</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/assistive-listening-systems.png" download target="_blank"> 
+            <img class="ml-3" src="img/assistive-listening-systems.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p76')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p76">&lt;i class=&quot;fal fa-assistive-listening-systems fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/attatchment.png" download target="_blank"> 
+            <img class="ml-3" src="img/attatchment.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p77')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p77">&lt;i class=&quot;fal fa-paperclip fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/book.png" download target="_blank"> 
+            <img class="ml-3" src="img/book.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p78')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p78">&lt;i class=&quot;fal fa-book fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/camera.png" download target="_blank"> 
+            <img class="ml-3" src="img/camera.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p79')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p79">&lt;i class=&quot;fal fa-camera fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/desktop.png" download target="_blank"> 
+            <img class="ml-3" src="img/desktop.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p80')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p80">&lt;i class=&quot;fal fa-desktop fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/headphones.png" download target="_blank"> 
+            <img class="ml-3" src="img/headphones.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p81')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p81">&lt;i class=&quot;fal fa-headphones fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/microphone.png" download target="_blank"> 
+            <img class="ml-3" src="img/microphone.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p82')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p82">&lt;i class=&quot;fal fa-microphone fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">  
+        <a href="img/mobile.png" download target="_blank"> 
+            <img class="ml-3" src="img/mobile.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p83')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p83">&lt;i class=&quot;fal fa-mobile fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/mobile-android-alt-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/mobile-android-alt-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p84')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p84">&lt;i class=&quot;fal fa-mobile-android-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">  
+        <a href="img/ticket.png" download target="_blank"> 
+            <img class="ml-3" src="img/ticket.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p85')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p85">&lt;i class=&quot;fal fa-ticket fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/tty.png" download target="_blank"> 
+            <img class="ml-3" src="img/tty.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p86')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p86">&lt;i class=&quot;fal fa-tty fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/tv.png" download target="_blank"> 
+            <img class="ml-3" src="img/tv.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p87')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p87">&lt;i class=&quot;fal fa-tv fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">  
+        <a href="img/tv-retro-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/tv-retro-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p88')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p88">&lt;i class=&quot;fal fa-tv-retro fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/utensils.png" download target="_blank"> 
+            <img class="ml-3" src="img/utensils.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p89')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p89">&lt;i class=&quot;fal fa-utensils fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">  
+        <a href="img/volume-down.png" download target="_blank"> 
+            <img class="ml-3" src="img/volume-down.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p90')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p90">&lt;i class=&quot;fal fa-volume-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/volume-mute.png" download target="_blank"> 
+            <img class="ml-3" src="img/volume-mute.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p91')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p91">&lt;i class=&quot;fal fa-volume-mute fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/volume-off.png" download target="_blank"> 
+            <img class="ml-3" src="img/volume-off.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p92')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p92">&lt;i class=&quot;fal fa-volume-off fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">  
+        <a href="img/volume-up.png" download target="_blank"> 
+            <img class="ml-3" src="img/volume-up.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p93')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p93">&lt;i class=&quot;fal fa-volume-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>    
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="parks" style="font-size: 20px"><strong>Parks</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
     <div class="row text-center"> 	
         <div class="col-sm-1"></div>
     <div class="col-sm-2">  
@@ -2660,9 +3935,9 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p11')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p94')"><i class="fa fa-copy"></i>  Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p11">&lt;i class=&quot;fab fa-award fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p94">&lt;i class=&quot;fab fa-award fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <br><br>
     <div class="col-sm-2">       
@@ -2672,9 +3947,9 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p2')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p95')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p2">&lt;i class=&quot;fal fa-campground fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p95">&lt;i class=&quot;fal fa-campground fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <div class="col-sm-2">       
         <a href="img/custom-bench-seating.png" download target="_blank"> 
@@ -2683,9 +3958,9 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p3')"><i class="fa fa-copy"></i> N/A</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p96')"><i class="fa fa-copy"></i> N/A</button>
         <br><br>
-        <a style="visibility: hidden;" id="p3"></a>
+        <a style="visibility: hidden;" id="p96"></a>
     </div>
     <div class="col-sm-2">       
         <a href="img/digging.png" download target="_blank"> 
@@ -2694,9 +3969,9 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p4')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p97')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p4">&lt;i class=&quot;fal fa-digging fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p97">&lt;i class=&quot;fal fa-digging fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <div class="col-sm-2">       
         <a href="img/dog-leashed.png" download target="_blank"> 
@@ -2705,12 +3980,11 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p5')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p98')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p5">&lt;i class=&quot;fal fa-dog-leashed fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p98">&lt;i class=&quot;fal fa-dog-leashed fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     </div>
-    
     
     
     <div class="row text-center">
@@ -2722,9 +3996,9 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p6')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p99')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p6">&lt;i class=&quot;fal fa-fire-smoke fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p99">&lt;i class=&quot;fal fa-fire-smoke fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <br><br>
     <div class="col-sm-2">       
@@ -2734,9 +4008,9 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p7')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p100')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p7">&lt;i class=&quot;fal fa-flower-tulip fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p100">&lt;i class=&quot;fal fa-flower-tulip fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <div class="col-sm-2">       
         <a href="img/flower.png" download target="_blank"> 
@@ -2745,9 +4019,9 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p8')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p101')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p8">&lt;i class=&quot;fal fa-flower fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p101">&lt;i class=&quot;fal fa-flower fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <div class="col-sm-2">       
         <a href="img/house-flood.png" download target="_blank"> 
@@ -2756,9 +4030,9 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p9')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p102')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p9">&lt;i class=&quot;fal fa-house-flood fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p102">&lt;i class=&quot;fal fa-house-flood fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     <div class="col-sm-2">       
         <a href="img/music.png" download target="_blank"> 
@@ -2767,17 +4041,1930 @@ function copyToClipboard(element) {
         <br><br>
         <span class="badge badge-image">Click icon to download</span>
         <br>
-        <button class="btn btn-html" onclick="copyToClipboard('#p10')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <button class="btn btn-html" onclick="copyToClipboard('#p103')"><i class="fa fa-copy"></i> Copy HTML</button>
         <br><br>
-        <a style="visibility: hidden;" id="p10">&lt;i class=&quot;fas fa-music fa-3x&quot;&gt;&lt;/i&gt;</a>
+        <a style="visibility: hidden;" id="p103">&lt;i class=&quot;fal fa-music fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center">
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">      
+        <a href="img/poop.png" download target="_blank"> 
+            <img class="ml-3" src="img/poop.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p104')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p104">&lt;i class=&quot;fal fa-poop fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/running.png" download target="_blank"> 
+            <img class="ml-3" src="img/running.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p105')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p105">&lt;i class=&quot;fal fa-running fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/seedling.png" download target="_blank"> 
+            <img class="ml-3" src="img/seedling.png"r width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p106')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p106">&lt;i class=&quot;fal fa-seedling fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/smoking.png" download target="_blank"> 
+            <img class="ml-3" src="img/smoking.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p107')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p107">&lt;i class=&quot;fal fa-smoking fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/traffic-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/traffic-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p108')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p108">&lt;i class=&quot;fal fa-traffic-light fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center">
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">      
+        <a href="img/trophy.png" download target="_blank"> 
+            <img class="ml-3" src="img/trophy.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p109')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p109">&lt;i class=&quot;fal fa-trophy fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/walking.png" download target="_blank"> 
+            <img class="ml-3" src="img/walking.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p110')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p110">&lt;i class=&quot;fal fa-walking fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/wine-glass-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/wine-glass-alt.png"r width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p111')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p111">&lt;i class=&quot;fal fa-wine-glass-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/accessibility.PNG" download target="_blank"> 
+            <img class="ml-3" src="img/accessibility.PNG" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p112')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p112">&lt;i class=&quot;fal fa-accessible-icon fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+     
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="payment" style="font-size: 20px"><strong>Payment</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/coins.png" download target="_blank"> 
+            <img class="ml-3" src="img/coins.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p113')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p113">&lt;i class=&quot;fal fa-coins fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/credit-card.png" download target="_blank"> 
+            <img class="ml-3" src="img/credit-card.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p114')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p114">&lt;i class=&quot;fal fa-credit-card fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/dollar-sign.png" download target="_blank"> 
+            <img class="ml-3" src="img/dollar-sign.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p115')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p115">&lt;i class=&quot;fal fa-dollar-sign fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/money-bill-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/money-bill-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p116')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p116">&lt;i class=&quot;fal fa-money-bill-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/money-check-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/money-check-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p117')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p117">&lt;i class=&quot;fal fa-money-check-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/money-check-edit-alt-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/money-check-edit-alt-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p118')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p118">&lt;i class=&quot;fal fa-money-check-edit-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>   
+        
+        
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="people" style="font-size: 20px"><strong>People</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/angry.png" download target="_blank"> 
+            <img class="ml-3" src="img/angry.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p119')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p119">&lt;i class=&quot;fal fa-angry fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/cursing.png" download target="_blank"> 
+            <img class="ml-3" src="img/cursing.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p120')"><i class="fa fa-copy"></i> N/A</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p120"></a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/meh.png" download target="_blank"> 
+            <img class="ml-3" src="img/meh.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p121')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p121">&lt;i class=&quot;fal fa-meh fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/sad-tear.png" download target="_blank"> 
+            <img class="ml-3" src="img/sad-tear.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p122')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p122">&lt;i class=&quot;fal fa-sad-tear fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/smile.png" download target="_blank"> 
+            <img class="ml-3" src="img/smile.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p123')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p123">&lt;i class=&quot;fal fa-smile fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="rating" style="font-size: 20px"><strong>Rating</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/heart.png" download target="_blank"> 
+            <img class="ml-3" src="img/heart.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p124')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p124">&lt;i class=&quot;fal fa-heart fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/star.png" download target="_blank"> 
+            <img class="ml-3" src="img/star.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p125')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p125">&lt;i class=&quot;fal fa-star fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/star-half.png" download target="_blank"> 
+            <img class="ml-3" src="img/star-half.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p126')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p126">&lt;i class=&quot;fal fa-star-half fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/star-solid.png" download target="_blank"> 
+            <img class="ml-3" src="img/star-solid.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p127')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p127">&lt;i class=&quot;fas fa-star fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/thumbs-down.png" download target="_blank"> 
+            <img class="ml-3" src="img/thumbs-down.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p128')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p128">&lt;i class=&quot;fal fa-thumbs-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/thumbs-up.png" download target="_blank"> 
+            <img class="ml-3" src="img/thumbs-up.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p129')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p129">&lt;i class=&quot;fal fa-thumbs-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="social" style="font-size: 20px"><strong>Social Media</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/facebook-f-brands.png" download target="_blank"> 
+            <img class="ml-3" src="img/facebook-f-brands.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p130')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p130">&lt;i class=&quot;fal fa-facebook-f fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/hashtag.png" download target="_blank"> 
+            <img class="ml-3" src="img/hashtag.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p131')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p131">&lt;i class=&quot;fal fa-hashtag fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/twitter-brands.png" download target="_blank"> 
+            <img class="ml-3" src="img/twitter-brands.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p132')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p132">&lt;i class=&quot;fal fa-twitter fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+        <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="sports" style="font-size: 20px"><strong>Sports</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/baseball.png" download target="_blank"> 
+            <img class="ml-3" src="img/baseball.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p133')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p133">&lt;i class=&quot;fal fa-baseball fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/baseball-ball.png" download target="_blank"> 
+            <img class="ml-3" src="img/baseball-ball.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p134')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p134">&lt;i class=&quot;fal fa-baseball-ball fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/basketball-ball.png" download target="_blank"> 
+            <img class="ml-3" src="img/basketball-ball.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p135')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p135">&lt;i class=&quot;fal fa-basketball-ball fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/basketball-hoop.png" download target="_blank"> 
+            <img class="ml-3" src="img/basketball-hoop.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p136')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p136">&lt;i class=&quot;fal fa-basketball-hoop fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/bicycle.png" download target="_blank"> 
+            <img class="ml-3" src="img/bicycle.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p137')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p137">&lt;i class=&quot;fal fa-bicycle fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/custom-swimming-pool-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-swimming-pool-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html">  N/A</button>
+        <br><br>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/football-ball.png" download target="_blank"> 
+            <img class="ml-3" src="img/football-ball.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p138')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p138">&lt;i class=&quot;fal fa-football-ball fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/football-helmet.png" download target="_blank"> 
+            <img class="ml-3" src="img/football-helmet.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p139')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p139">&lt;i class=&quot;fal fa-football-helmet fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+        <div class="col-sm-2">  
+        <a href="img/futbol.png" download target="_blank"> 
+            <img class="ml-3" src="img/futbol.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p140')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p140">&lt;i class=&quot;fal fa-futbol fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/golf-ball.png" download target="_blank"> 
+            <img class="ml-3" src="img/golf-ball.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p141')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p141">&lt;i class=&quot;fal fa-golf-ball fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">       
+        <a href="img/hiking.png" download target="_blank"> 
+            <img class="ml-3" src="img/hiking.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p142')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p142">&lt;i class=&quot;fal fa-hiking fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/racquet-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/racquet-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p143')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p143">&lt;i class=&quot;fal fa-racquet fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/swimmer.png" download target="_blank"> 
+            <img class="ml-3" src="img/swimmer.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p144')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p144">&lt;i class=&quot;fal fa-swimmer fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+        <div class="col-sm-2">  
+        <a href="img/table-tennis.png" download target="_blank"> 
+            <img class="ml-3" src="img/table-tennis.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p145')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p145">&lt;i class=&quot;fal fa-table-tennis fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/volleyball-ball.png" download target="_blank"> 
+            <img class="ml-3" src="img/volleyball-ball.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p146')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p146">&lt;i class=&quot;fal fa-volleyball-ball fa-3x&quot;&gt;&lt;/i&gt;</a>
     </div>
     </div>
     
-     
-       <br><br>  
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="things" style="font-size: 20px"><strong>Things</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/archive-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/archive-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p147')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p147">&lt;i class=&quot;fal fa-archive fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/balance-scale.png" download target="_blank"> 
+            <img class="ml-3" src="img/balance-scale.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p148')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p148">&lt;i class=&quot;fal fa-balance-scale fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/book.png" download target="_blank"> 
+            <img class="ml-3" src="img/book.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p149')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p149">&lt;i class=&quot;fal fa-book fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/box.png" download target="_blank"> 
+            <img class="ml-3" src="img/box.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p150')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p150">&lt;i class=&quot;fal fa-box fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/lightbulb.png" download target="_blank"> 
+            <img class="ml-3" src="img/lightbulb.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p151')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p151">&lt;i class=&quot;fal fa-lightbulb fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/puzzle-piece.png" download target="_blank"> 
+            <img class="ml-3" src="img/puzzle-piece.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p152')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p152">&lt;i class=&quot;fal fa-puzzle-piece fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/shield-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/shield-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p153')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p153">&lt;i class=&quot;fal fa-shield fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">  
+        <a href="img/tag-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/tag-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p154')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p154">&lt;i class=&quot;fal fa-tag fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="transportation" style="font-size: 20px"><strong>Transportation</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/bus-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/bus-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p155')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p155">&lt;i class=&quot;fal fa-bus-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/car.png" download target="_blank"> 
+            <img class="ml-3" src="img/car.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p156')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p156">&lt;i class=&quot;fal fa-car fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/car-side-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/car-side-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p157')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p157">&lt;i class=&quot;fal fa-car-side fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/custom-scooter.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-scooter.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html">N/A</button>
+        <br><br>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/plane.png" download target="_blank"> 
+            <img class="ml-3" src="img/plane.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p158')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p158">&lt;i class=&quot;fal fa-plane fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/road.png" download target="_blank"> 
+            <img class="ml-3" src="img/road.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p159')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p159">&lt;i class=&quot;fal fa-road fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/traffic-cone.png" download target="_blank"> 
+            <img class="ml-3" src="img/traffic-cone.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p160')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p160">&lt;i class=&quot;fal fa-traffic-cone fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/truck.png" download target="_blank"> 
+            <img class="ml-3" src="img/truck.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p161')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p161">&lt;i class=&quot;fal fa-truck fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="ui" style="font-size: 20px"><strong>UI Controls</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/arrow-circle-down.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-circle-down.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p162')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p162">&lt;i class=&quot;fal fa-arrow-circle-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/arrow-down-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-down-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p163')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p163">&lt;i class=&quot;fal fa-arrow-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/arrow-circle-left.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-circle-left.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p164')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p164">&lt;i class=&quot;fal fa-arrow-circle-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/arrow-left-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-left-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p165')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p165">&lt;i class=&quot;fal fa-arrow-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/arrow-circle-right.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-circle-right.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p166')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p166">&lt;i class=&quot;fal fa-arrow-circle-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+    
+    
+    <div class="row text-center">
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">      
+        <a href="img/arrow-right-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-right-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p167')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p167">&lt;i class=&quot;fal fa-arrow-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/arrow-circle-up.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-circle-up.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p168')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p168">&lt;i class=&quot;fal fa-arrow-circle-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/arrow-up-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/arrow-up-light.png"r width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p169')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p169">&lt;i class=&quot;fal fa-arrow-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/caret-down-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/caret-down-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p170')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p170">&lt;i class=&quot;fal fa-caret-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/caret-down-solid.PNG" download target="_blank"> 
+            <img class="ml-3" src="img/caret-down-solid.PNG" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p171')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p171">&lt;i class=&quot;fas fa-caret-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>    
+    
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/backward.png" download target="_blank"> 
+            <img class="ml-3" src="img/backward.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p172')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p172">&lt;i class=&quot;fal fa-backward fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/backward-solid.png" download target="_blank"> 
+            <img class="ml-3" src="img/backward-solid.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p173')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p173">&lt;i class=&quot;fas fa-backward fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/bars-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/bars-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p174')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p174">&lt;i class=&quot;fal fa-bars fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/caret-left-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/caret-left-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p175')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p175">&lt;i class=&quot;fal fa-caret-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/caret-right-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/caret-right-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p176')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p176">&lt;i class=&quot;fal fa-caret-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/caret-right-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/caret-right-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p177')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p177">&lt;i class=&quot;fal fa-caret-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/caret-up-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/caret-up-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p178')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p178">&lt;i class=&quot;fal fa-caret-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/chart-bar.png" download target="_blank"> 
+            <img class="ml-3" src="img/chart-bar.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p179')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p179">&lt;i class=&quot;fal fa-chart-bar fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/chart-pie.png" download target="_blank"> 
+            <img class="ml-3" src="img/chart-pie.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p180')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p180">&lt;i class=&quot;fal fa-chart-pie fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/clipboard.png" download target="_blank"> 
+            <img class="ml-3" src="img/clipboard.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p181')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p181">&lt;i class=&quot;fal fa-clipboard fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/closed-captioning.png" download target="_blank"> 
+            <img class="ml-3" src="img/closed-captioning.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p182')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p182">&lt;i class=&quot;fal fa-closed-captioning fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/cog.png" download target="_blank"> 
+            <img class="ml-3" src="img/cog.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p183')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p183">&lt;i class=&quot;fal fa-cog fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/cogs.png" download target="_blank"> 
+            <img class="ml-3" src="img/cogs.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p184')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p184">&lt;i class=&quot;fal fa-cogs fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/compress-alt-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/compress-alt-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p185')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p185">&lt;i class=&quot;fal fa-compress-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/custom-full-screen-collapse.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-full-screen-collapse.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p186')"><i class="fa fa-copy"></i> N/A</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p186"></a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/custom-notification-counter.png" download target="_blank"> 
+            <img class="ml-3" src="img/custom-notification-counter.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p187')"><i class="fa fa-copy"></i>  N/A</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p187"></a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/download.png" download target="_blank"> 
+            <img class="ml-3" src="img/download.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p188)"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p188">&lt;i class=&quot;fal fa-download fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/ellipsis-v-alt-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/ellipsis-v-alt-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p189')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p189">&lt;i class=&quot;fal fa-ellipsis-v-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/ellipsis-v-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/ellipsis-v-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p190')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p190">&lt;i class=&quot;fal fa-ellipsis-v fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/expand-arrows-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/expand-arrows-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p191')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p191">&lt;i class=&quot;fal fa-expand-arrows fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/file-signature-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/file-signature-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p192')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p192">&lt;i class=&quot;fal fa-file-signature fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/filter-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/filter-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p193')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p193">&lt;i class=&quot;fal fa-filter-light fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/forward-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/forward-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p194')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p194">&lt;i class=&quot;fal fa-forward fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/forward-solid.png" download target="_blank"> 
+            <img class="ml-3" src="img/forward-solid.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p195')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p195">&lt;i class=&quot;fas fa-forward fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/hand-holding.png" download target="_blank"> 
+            <img class="ml-3" src="img/hand-holding.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p196')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p196">&lt;i class=&quot;fal fa-hand-holding fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/hand-paper-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/hand-paper-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p197')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p197">&lt;i class=&quot;fal fa-hand-paper fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/hand-point-down.png" download target="_blank"> 
+            <img class="ml-3" src="img/hand-point-down.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p198')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p198">&lt;i class=&quot;fal fa-hand-point-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/hand-pointer.png" download target="_blank"> 
+            <img class="ml-3" src="img/hand-pointer.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p199')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p199">&lt;i class=&quot;fal fa-hand-pointer fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/upload.png" download target="_blank"> 
+            <img class="ml-3" src="img/upload.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p200')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p200">&lt;i class=&quot;fal fa-upload fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/hand-point-left.png" download target="_blank"> 
+            <img class="ml-3" src="img/hand-point-left.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p201')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p201">&lt;i class=&quot;fal fa-hand-point-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/hand-point-right.png" download target="_blank"> 
+            <img class="ml-3" src="img/hand-point-right.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p202')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p202">&lt;i class=&quot;fal fa-hand-point-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/hand-point-up.png" download target="_blank"> 
+            <img class="ml-3" src="img/hand-point-up.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p203')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p203">&lt;i class=&quot;fal fa-hand-point-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/handshake-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/handshake-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p204')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p204">&lt;i class=&quot;fal fa-handshake fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/hourglass-half.png" download target="_blank"> 
+            <img class="ml-3" src="img/hourglass-half.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p205')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p205">&lt;i class=&quot;fal fa-hourglass-half fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/key.png" download target="_blank"> 
+            <img class="ml-3" src="img/key.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p206')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p206">&lt;i class=&quot;fal fa-key fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/list.png" download target="_blank"> 
+            <img class="ml-3" src="img/list.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p207')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p207">&lt;i class=&quot;fal fa-list fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/list-ul-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/list-ul-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p208')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p208">&lt;i class=&quot;fal fa-list-ul fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/lock.png" download target="_blank"> 
+            <img class="ml-3" src="img/lock.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p209')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p209">&lt;i class=&quot;fal fa-lock fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/lock-alt-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/lock-alt-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p210')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p210">&lt;i class=&quot;fal fa-lock-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/minus.png" download target="_blank"> 
+            <img class="ml-3" src="img/minus.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p211')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p211">&lt;i class=&quot;fal fa-minus fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+    
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/pause-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/pause-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p212')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p212">&lt;i class=&quot;fal fa-pause fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/pause-solid.png" download target="_blank"> 
+            <img class="ml-3" src="img/pause-solid.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p213')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p213">&lt;i class=&quot;fas fa-pause fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/play.png" download target="_blank"> 
+            <img class="ml-3" src="img/play.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p214')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p214">&lt;i class=&quot;fal fa-play fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/play-solid.png" download target="_blank"> 
+            <img class="ml-3" src="img/play-solid.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p215')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p215">&lt;i class=&quot;fas fa-play fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/plus.png" download target="_blank"> 
+            <img class="ml-3" src="img/plus.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p216')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p216">&lt;i class=&quot;fal fa-plus fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    </div>
+        
+
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/print.png" download target="_blank"> 
+            <img class="ml-3" src="img/print.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p217')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p217">&lt;i class=&quot;fal fa-print fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/qrcode.png" download target="_blank"> 
+            <img class="ml-3" src="img/qrcode.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p218')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p218">&lt;i class=&quot;fal fa-qrcode fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/question.png" download target="_blank"> 
+            <img class="ml-3" src="img/question.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p219')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p219">&lt;i class=&quot;fal fa-question fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/ribbon-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/ribbon-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p220')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p220">&lt;i class=&quot;fal fa-ribbon fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/rss.png" download target="_blank"> 
+            <img class="ml-3" src="img/rss.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p221')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p221">&lt;i class=&quot;fal fa-rss fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+      
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/search-minus-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/search-minus-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p222')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p222">&lt;i class=&quot;fal fa-search-minus fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/search-plus-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/search-plus-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p223')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p223">&lt;i class=&quot;fal fa-search-plus fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/share.png" download target="_blank"> 
+            <img class="ml-3" src="img/share.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p224')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p224">&lt;i class=&quot;fal fa-share fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/shopping-cart.png" download target="_blank"> 
+            <img class="ml-3" src="img/shopping-cart.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p225')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p225">&lt;i class=&quot;fal fa-shopping-cart fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/signature-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/signature-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p226')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p226">&lt;i class=&quot;fal fa-signature fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/sync.png" download target="_blank"> 
+            <img class="ml-3" src="img/sync.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p227')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p227">&lt;i class=&quot;fal fa-sync fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/unlock.png" download target="_blank"> 
+            <img class="ml-3" src="img/unlock.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p228')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p228">&lt;i class=&quot;fal fa-unlock fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="navigation" style="font-size: 20px"><strong>UI Navigation</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/bell.png" download target="_blank"> 
+            <img class="ml-3" src="img/bell.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p229')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p229">&lt;i class=&quot;fal fa-bell fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/home-alt.png" download target="_blank"> 
+            <img class="ml-3" src="img/home-alt.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p230')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p230">&lt;i class=&quot;fal fa-home-alt fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/search.png" download target="_blank"> 
+            <img class="ml-3" src="img/search.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p231')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p231">&lt;i class=&quot;fal fa-search fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+           
+        
+        
+        
+      <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="weather" style="font-size: 20px"><strong>Weather</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/cloud.png" download target="_blank"> 
+            <img class="ml-3" src="img/cloud.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p232')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p232">&lt;i class=&quot;fal fa-cloud fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/fog.png" download target="_blank"> 
+            <img class="ml-3" src="img/fog.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p233')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p233">&lt;i class=&quot;fal fa-fog fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/moon.png" download target="_blank"> 
+            <img class="ml-3" src="img/moon.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p234')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p234">&lt;i class=&quot;fal fa-moon fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/raindrops.png" download target="_blank"> 
+            <img class="ml-3" src="img/raindrops.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p235')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p235">&lt;i class=&quot;fal fa-raindrops fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/snowflake.png" download target="_blank"> 
+            <img class="ml-3" src="img/snowflake.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p236')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p236">&lt;i class=&quot;fal fa-snowflake fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/sun.png" download target="_blank"> 
+            <img class="ml-3" src="img/sun.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p237')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p237">&lt;i class=&quot;fal fa-sun fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/thermometer-full.png" download target="_blank"> 
+            <img class="ml-3" src="img/thermometer-full.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p238')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p238">&lt;i class=&quot;fal fa-thermometer-full fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">  
+        <a href="img/thunderstorm-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/thunderstorm-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p239')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p239">&lt;i class=&quot;fal fa-thunderstorm fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/tornado.png" download target="_blank"> 
+            <img class="ml-3" src="img/tornado.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p240')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p240">&lt;i class=&quot;fal fa-tornado fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
+
+         
+    
+       
+    <div class="row">    
+    <div class="col-sm-1"></div> 
+    <div class="col-sm-9">
+    <a name="workflow" style="font-size: 20px"><strong>Workflow Status</strong></a> 
+        <br><br><br>
+        </div>
+        </div>
+        
+    <div class="row text-center"> 	
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">  
+        <a href="img/angle-down.png" download target="_blank"> 
+            <img class="ml-3" src="img/angle-down.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p241')"><i class="fa fa-copy"></i>  Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p241">&lt;i class=&quot;fal fa-angle-down fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/angle-left.png" download target="_blank"> 
+            <img class="ml-3" src="img/angle-left.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p242')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p242">&lt;i class=&quot;fal fa-angle-left fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/angle-right.png" download target="_blank"> 
+            <img class="ml-3" src="img/angle-right.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p243')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p243">&lt;i class=&quot;fal fa-angle-right fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/angle-up.png" download target="_blank"> 
+            <img class="ml-3" src="img/angle-up.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p244')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p244">&lt;i class=&quot;fal fa-angle-up fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/check-circle.png" download target="_blank"> 
+            <img class="ml-3" src="img/check-circle.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p245')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p245">&lt;i class=&quot;fal fa-check-circle fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+    
+    
+    <div class="row text-center">
+        <div class="col-sm-1"></div>
+    <div class="col-sm-2">      
+        <a href="img/check-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/check-light.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p246')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p246">&lt;i class=&quot;fal fa-check fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <br><br>
+    <div class="col-sm-2">       
+        <a href="img/check-square.png" download target="_blank"> 
+            <img class="ml-3" src="img/check-square.png" width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p247')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p247">&lt;i class=&quot;fal fa-check-square fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    <div class="col-sm-2">       
+        <a href="img/exclamation-triangle-light.png" download target="_blank"> 
+            <img class="ml-3" src="img/exclamation-triangle-light.png"r width="50rem" height="50rem" alt="icon">
+        </a>
+        <br><br>
+        <span class="badge badge-image">Click icon to download</span>
+        <br>
+        <button class="btn btn-html" onclick="copyToClipboard('#p248')"><i class="fa fa-copy"></i> Copy HTML</button>
+        <br><br>
+        <a style="visibility: hidden;" id="p248">&lt;i class=&quot;fal fa-exclamation-triangle fa-3x&quot;&gt;&lt;/i&gt;</a>
+    </div>
+    </div>
+        
 </div> 
 </div>
-<!--End Logos-->
+<!--End icons-->
     
     
     
